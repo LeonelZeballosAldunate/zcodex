@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu Mono', monospace;
+    margin: 0;
+}
+
+#name {
+    font-weight: 700;
+    font-size: 40px;
+    margin: 0 0 0 20px;
+    position: absolute;
+    left: 0;
+}
+
+#name a {
+    text-decoration: none;
+    color: #242124;
+    transition: .3s color;
+}
+
+#name a:hover {
+    color: #c21e56;
+}
+
+header {
+    background-color: antiquewhite;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bttns {
+   display: inline-block;
+   border-radius: 30px;
+   box-shadow: rgba(36, 33, 36, .7) 0px 5px 15px;
+}
+
+#bttns li {
+    display: inline-block;
+    padding: 5px 20px;
+    background-color: #c21e56;
+    font-size: 20px;
+    color: white;
+    transition: .3s background-color;
+}
+
+.active {
+    background-color: #242124 !important;
+}
+
+.bttn-left {
+    border-radius: 30px 0 0 30px;
+}
+
+.bttn-right {
+    border-radius: 0 30px 30px 0;
+}
+
+#bttns li:hover {
+    cursor: pointer;
+    background-color: #242124 !important;
+}
+
+textarea {
+    resize: none;
+    border: none;
+    border-right: 2px solid gray;
+    color: white;
+    background-color: #242124;
+    font-size: 25px;
+}
+
+textarea:focus {
+    outline: none;
+    background-color: #2e2b2e;
+}
+
+iframe {
+    border: none;
+}
+
+.panel {
+    float: left;
+}
+
+.oculto {
+    display: none;
+}

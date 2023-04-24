@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <title>ZCodeX</title>
+</head>
+<body>
+    <nav>
+        <header class="ola">
+            <h1 id="name"><a href="">ZCodeX</a></h1>
+            <ul id="bttns">
+                <li id="html-bttn" class="bttn-left bttn active">HTML</li><li id="css-bttn" class="bttn">Css</li><li id="js-bttn" class="bttn">JavaScript</li><li id="output-bttn" class="bttn-right bttn active">Output</li>
+            </ul>
+        </header>
+    </nav>
+    <div id="body-container">
+        <textarea name="" id="html-panel" cols="30" rows="10" class="panel" placeholder="HTML"></textarea>
+        <textarea name="" id="css-panel" cols="30" rows="10" class="panel oculto" placeholder="CSS"></textarea>
+        <textarea name="" id="js-panel" cols="30" rows="10" class="panel oculto" placeholder="JavaScript"></textarea>
+        <iframe src="" frameborder="0" id="output-panel" class="panel"></iframe>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
